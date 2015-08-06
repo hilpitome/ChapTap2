@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ChapTap</string>
+
+    <string name="order_button">Order</string>
+    <string name="reserve">RESERVE TABLE</string>
+    <string name="title_activity_order_">Order_Activity</string>
+    <string name="HotelButton">Hotel</string>
+    <string name="buttonWaiter">WAITER</string>
+</resources>
