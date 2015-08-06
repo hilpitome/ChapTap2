@@ -5,10 +5,19 @@
     android:weightSum="1">
 
     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/textView2"
+        android:layout_gravity="right"
+        android:layout_weight="0.12" />
+
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Your Total is "
+        android:text="Your Total "
         android:id="@+id/priceView"
         android:layout_gravity="center"
         android:gravity="center"
