@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:weightSum="1">
+    android:weightSum="1"
+    android:orientation="vertical">
 
     <TextView
         android:layout_width="wrap_content"
@@ -17,9 +18,38 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Your Total "
+        android:text="Your Total is      \n make a 50% deposit\n choose between the following \n modes of payment  "
         android:id="@+id/priceView"
         android:layout_gravity="center"
         android:gravity="center"
-        android:layout_weight="0.12" />
-</LinearLayout>
+        android:layout_weight="0.12"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="140dp"
+        android:layout_height="80dp"
+        android:id="@+id/imageButton"
+        android:background="@mipmap/visa"
+        android:maxHeight="15dp"
+        android:layout_weight="0.51"
+        android:layout_alignTop="@+id/imageButton2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="140dp"
+        android:layout_height="80dp"
+        android:id="@+id/imageButton2"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.51"
+        android:layout_below="@+id/priceView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginTop="67dp"
+        android:background="@mipmap/mpesa" />
+
+</RelativeLayout>
