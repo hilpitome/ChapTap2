@@ -8,5 +8,6 @@
     <string name="buttonWaiter">WAITER</string>
     <string name="mkOrder">New Button</string>
     <string name="make_order">ClickToOrder</string>
+    <string name="mainView1">Choose Hotel</string>
 
 </resources>
