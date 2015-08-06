@@ -13,5 +13,7 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_waiter">WaiterActivity</string>
+    <string name="title_activity_reserve_table">ReserveTable</string>
+    <string name="title_activity_delivery">Delivery</string>
 
 </resources>

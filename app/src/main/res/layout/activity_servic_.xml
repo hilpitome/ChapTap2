@@ -18,24 +18,29 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="74dp" />
 
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reserve"
+        android:onClick="button2ClickMethod"
+        android:id="@+id/reserveButton"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/buttonWaiter"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="95dp" />
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/order_button"
+        android:onClick="button3ClickMethod"
         android:id="@+id/orderButton"
         android:layout_gravity="center_horizontal"
         android:layout_below="@+id/reserveButton"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="103dp" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/reserve"
-        android:id="@+id/reserveButton"
-        android:layout_gravity="center_horizontal"
-        android:layout_below="@+id/buttonWaiter"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="95dp" />
 
 </RelativeLayout>
