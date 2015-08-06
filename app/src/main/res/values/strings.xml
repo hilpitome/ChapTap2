@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">ChapTap</string>
-
+    <string name="action_settings">settings</string>
     <string name="order_button">Order</string>
     <string name="reserve">RESERVE TABLE</string>
     <string name="title_activity_order_">Order_Activity</string>
@@ -9,5 +9,9 @@
     <string name="mkOrder">New Button</string>
     <string name="make_order">ClickToOrder</string>
     <string name="mainView1">Choose Hotel</string>
+    <string name="title_activity_servic_">Servic_Activity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_waiter">WaiterActivity</string>
 
 </resources>
