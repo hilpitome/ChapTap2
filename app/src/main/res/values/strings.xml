@@ -6,4 +6,5 @@
     <string name="title_activity_order_">Order_Activity</string>
     <string name="HotelButton">Hotel</string>
     <string name="buttonWaiter">WAITER</string>
+    <string name="mkOrder">New Button</string>
 </resources>
