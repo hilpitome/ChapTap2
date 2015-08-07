@@ -7,15 +7,6 @@
     tools:context="hilary.moringa.com.chaptap.PaymentActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="Small Text"
-        android:id="@+id/textView2"
-        android:layout_gravity="right"
-        android:layout_weight="0.12" />
-
-    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
@@ -24,7 +15,6 @@
         android:layout_gravity="center"
         android:gravity="center"
         android:layout_weight="0.12"
-        android:layout_below="@+id/textView2"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
@@ -46,13 +36,12 @@
         android:layout_gravity="center_horizontal"
         android:layout_weight="0.51"
 
-        android:layout_below="@+id/priceView"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginRight="40dp"
-        android:layout_marginEnd="40dp"
-        android:layout_marginTop="67dp"
-        android:background="@mipmap/mpesa" />
+        android:background="@mipmap/mpesa"
+        android:layout_centerVertical="true"
+        android:layout_alignRight="@+id/priceView"
+        android:layout_alignEnd="@+id/priceView"
+        android:layout_marginRight="34dp"
+        android:layout_marginEnd="34dp" />
 
 
 </RelativeLayout>

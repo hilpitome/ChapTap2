@@ -56,7 +56,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".ReserveTable"
             android:label="@string/title_activity_reserve_table" >
@@ -66,7 +65,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".Delivery"
             android:label="@string/title_activity_delivery" >
@@ -76,7 +74,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".pickFood"
             android:label="@string/title_activity_pick_food" >
@@ -86,7 +83,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".PaymentActivity"
             android:label="@string/title_activity_payment" >
