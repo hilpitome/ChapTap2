@@ -26,15 +26,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".WaiterActivity"
-            android:label="@string/title_activity_waiter" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity
             android:name=".ReserveTable"
             android:label="@string/title_activity_reserve_table" >
             <intent-filter>

@@ -38,7 +38,7 @@ public class Servic_Activity extends AppCompatActivity {
     }
     public  void  buttonClickMethod(View v){
 
-        Intent i =new Intent(Servic_Activity.this,WaiterActivity.class);
+        Intent i =new Intent(Servic_Activity.this,pickFood.class);
         startActivity(i);
 
 
