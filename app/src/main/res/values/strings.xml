@@ -17,5 +17,8 @@
     <string name="title_activity_reserve_table">ReserveTable</string>
     <string name="title_activity_delivery">Delivery</string>
     <string name="title_activity_pick_food">pickFood</string>
+    <string name="title_activity_payment">PaymentActivity</string>
+    <string name="str1">next</string>
+
 
 </resources>

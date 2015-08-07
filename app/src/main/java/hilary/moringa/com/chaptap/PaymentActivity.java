@@ -1,24 +1,22 @@
 package hilary.moringa.com.chaptap;
 
-import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 
-public class ReserveTable extends AppCompatActivity {
+public class PaymentActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_reserve_table);
+        setContentView(R.layout.activity_payment);
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_reserve_table, menu);
+        getMenuInflater().inflate(R.menu.menu_payment, menu);
         return true;
     }
 
@@ -36,12 +34,4 @@ public class ReserveTable extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
-    public  void  button4ClickMethod(View v){
-
-        Intent i =new Intent(ReserveTable.this,PaymentActivity.class);
-        startActivity(i);
-
-
-    }
-
 }
